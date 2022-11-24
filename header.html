@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .header {
+        display: flex;
+        background-color: #9ccd62;
+      }
+      a,
+      p {
+        color: black;
+        text-decoration: none;
+        font-family: inter;
+        font-style: medium;
+        font-size: 24px;
+        text-align: left;
+        vertical-align: top;
+        padding-left: 70px;
+        padding-top: 20px;
+      }
+      .logo {
+        height: 50px;
+        width: 50px;
+        margin-top: 6px;
+        margin-left: 10px;
+      }
+      .timkiem {
+        margin-left: 50px;
+        border: 1px solid #646464;
+        border-radius: 15px;
+        height: 40px;
+        line-height: 30px;
+        margin-top: 10px;
+      }
+      .cart {
+        height: 50px;
+        width: 40px;
+        margin-left: 80px;
+        padding-top: 15px;
+      }
+      .search_btn {
+        display: flex;
+      }
+      .kinhlup {
+        height: 45px;
+        width: 40px;
+        margin-left: -40px;
+        border-radius: 10px;
+        border: 1px solid #646464;
+      }
+      #nhap #nhap_btn {
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body style="padding: 0px">
+    <div class="header">
+      <img src="./logo ecoheal.png" class="logo" />
+      <a href="./trangchu.html">Trang chủ</a>
+      <a href="./vechungtoi.html">Về Chúng Tôi</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./tintuc.html">Tin tức</a>
+      <a href="./khuyenmai.html">Khuyến Mãi</a>
+      <div class="search_btn">
+        <form action="" class="search" method="post">
+          <input class="timkiem" id="nhap" type="text" placeholder="Tìm kiếm" />
+          <button type="submit" class="kinhlup" id="nhap_btn">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <a href="./dangnhap.html">Đăng Ký/ Đăng Nhập</a>
+      <img src="./giỏ hàng.png" class="cart" />
+    </div>
+  </body>
+</html>
