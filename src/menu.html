@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="../data/sản phẩm bán chạy.json"></script>
+    <script src="./function.js"></script>
+    <script src="./menu.js"></script>
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+  <body>
+    <p w3-include-html="../header.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+    <div>
+      <div>
+        <img src="" alt="" />
+      </div>
+      <div id="bestseller" class="container"></div>
+      <hr class="margin-top-bottom" />
+      <div class="category-box">
+        <a class="category" href="./biscotti.html" target="productsCategory">
+          BISCOTTI</a
+        >
+        <a class="category" href="./granola.html" target="productsCategory"
+          >GRANOLA</a
+        >
+        <a class="category" href="./biscotti.html" target="productsCategory"
+          >BƠ ĂN KIÊNG</a
+        >
+        <a class="category" href="./biscotti.html" target="productsCategory"
+          >HẠT NGŨ CỐC</a
+        >
+      </div>
+      <div class="category-frame">
+        <iframe
+          src="biscotti.html"
+          name="productsCategory"
+          height="600px"
+          width="100%"
+          title="Iframe Example"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
