@@ -75,3 +75,9 @@
   width: 80%;
   margin: auto;
 }
+.activeCategory {
+  text-decoration: underline #9ccd62 3px;
+}
+.bestseller-cotent {
+  margin-left: 25px;
+}

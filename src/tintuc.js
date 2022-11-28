@@ -1,4 +1,4 @@
-function loadProducts(jsonUrl, contentId) {
+function loadNews(jsonUrl, contentId) {
     fetch(jsonUrl)
         .then(function (request) {
             if (!request.ok) {
@@ -16,12 +16,10 @@ function loadProducts(jsonUrl, contentId) {
                 html += "</div>";
                 html += `<div class='content'>`;
                 html += "<p class='name'>" + p.name + "</p>";
-                html += `<div class='flex-center'>`;
-                html += "<img class='icon1' src='../img" + p.icon1_url + "'/>";
-                html += "<span class='description'>" + "đã bán " + p.sold + "</span>";
+                html += "<p class='daynews'>" + p.day + "</p>";
+                html += "<p class='detail'>" + p.detail + "</p>";
                 html += "<img class='icon1' src='../img" + p.icon2_url + "'/>";
                 html += "<span class='description'>" + p.star + "</span><br />";
-                html += "</div>";
                 html += `<div class='price-box'>`;
                 html += "<p class='price'>" + p.price + "</p><br />";
                 html += "</div>";
