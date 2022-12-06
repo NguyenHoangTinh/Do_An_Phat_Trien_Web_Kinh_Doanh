@@ -1,5 +1,5 @@
 
 function loadCereal() {
-    loadProducts("../data/granola.json", "cerealCategory")
+    loadProducts("../data/Hat_ngu_coc.json", "cerealCategory")
 }
 window.onload = loadCereal();
