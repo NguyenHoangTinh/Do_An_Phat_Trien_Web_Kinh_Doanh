@@ -1,3 +1,4 @@
+
 function loadNews(jsonUrl, contentId) {
     fetch(jsonUrl)
         .then(function (request) {
@@ -12,16 +13,14 @@ function loadNews(jsonUrl, contentId) {
                 html += `<div class='item'>`;
                 html += `<div class='img'>`;
                 // html += "<img class='img-full' src='../img" + p.img_url + "'/>";
-                html += `<img class='img-full' src='../img${p.img_url}' />`;
+                html += "<img class='img-full' src='../img" + p.img_url + "'/>";
                 html += "</div>";
                 html += `<div class='content'>`;
                 html += "<p class='name'>" + p.name + "</p>";
                 html += "<p class='daynews'>" + p.day + "</p>";
                 html += "<p class='detail'>" + p.detail + "</p>";
-                html += "<img class='icon1' src='../img" + p.icon2_url + "'/>";
-                html += "<span class='description'>" + p.star + "</span><br />";
-                html += `<div class='price-box'>`;
-                html += "<p class='price'>" + p.price + "</p><br />";
+                html += `<div class='docthem-box'>`;
+                html += `<a class='buttonadd' href='./tintucchitiet.html?id=${p.id}&type=${contentId}'target='_bank'>${p.add}</a>`;
                 html += "</div>";
                 html += "</div>";
                 html += "</div>";
@@ -32,3 +31,9 @@ function loadNews(jsonUrl, contentId) {
             alert(err.mesage);
         });
 }
+function addActiveNews(id) {
+    document.getElementById("sukienLink").classList.remove("activeCategory");
+    document.getElementById("songkhoeLink").classList.remove("activeCategory");
+    document.getElementById(id).classList.add("activeCategory");
+}
+

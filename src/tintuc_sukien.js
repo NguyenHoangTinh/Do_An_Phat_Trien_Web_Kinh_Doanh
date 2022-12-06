@@ -1,4 +1,4 @@
-function loadBestSeller() {
-    loadProducts("../data/sản phẩm bán chạy.json", "bestseller")
+function loadTintucsukien() {
+    loadNews("../data/tin tức sự kiện.json", "sukien")
 }
-window.onload = loadBestSeller();
+window.onload = loadTintucsukien();
