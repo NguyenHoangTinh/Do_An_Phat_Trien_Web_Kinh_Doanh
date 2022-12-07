@@ -36,3 +36,13 @@ body, html{
 .logo2{
     justify-content: space-evenly;
 }
+.box-lienket{
+    justify-content: space-evenly;
+    display: flex;
+}
+.lienket{
+    justify-self: center;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
