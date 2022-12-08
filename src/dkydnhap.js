@@ -35,7 +35,7 @@ function signIn(e) {
     }
     else{
         localStorage.setItem('user',JSON.stringify({email:email}))
-        location.href = "/";
+        location.href = "./homepage.html";
     }
     e.preventDefault();
 }
