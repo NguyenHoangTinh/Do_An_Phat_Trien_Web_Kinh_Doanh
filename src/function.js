@@ -9,7 +9,7 @@ function loadProducts(jsonUrl, contentId) {
         .then(function (data) {
             let html = "";
             for (let p of data) {
-                html += `<div class='item'>`;
+                html += `<a class='item' href='./chitietsp.html?id=${p.id}&type=${contentId}'target='_bank'>`;
                 html += `<div class='img'>`;
                 // html += "<img class='img-full' src='../img" + p.img_url + "'/>";
                 html += `<img class='img-full' src='../img${p.img_url}' />`;
@@ -26,7 +26,7 @@ function loadProducts(jsonUrl, contentId) {
                 html += "<p class='price'>" + p.price + "</p><br />";
                 html += "</div>";
                 html += "</div>";
-                html += "</div>";
+                html += "</a>";
             }
             document.getElementById(contentId).innerHTML = html;
         })

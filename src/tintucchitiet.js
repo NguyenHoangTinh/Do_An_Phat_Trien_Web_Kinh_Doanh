@@ -12,7 +12,7 @@ function loadNewsDetail(jsonUrl, contentId, URLid) {
             for (let p of data) {
                 if (p.id == URLid) {
                     html += `<div class='item'>`;
-                    html += `<div class='content'>`;
+                    html += `<div class='contentchitiet'>`;
                     html += "<h2 class='name'>" + p.name + "</h2>";
                     html += "<p class='daynews'>" + p.day + "</p>";
                     html += "<p class='content1'>" + p.content_mo_dau + "</p>";
