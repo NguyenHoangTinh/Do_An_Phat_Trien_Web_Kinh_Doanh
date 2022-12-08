@@ -1,10 +1,10 @@
-function themvaoGioHang(ten, giatien) {
+function themvaoGioHang(ten, giatien, hinh) {
     const data = localStorage.getItem('giohang');
     const giohang = data ? JSON.parse(data) : [];
 
     const soluong = parseInt(document.getElementById('soluong').innerHTML);
 
-    const sanpham = { giatien, ten, soluong };
+    const sanpham = { giatien, ten, soluong, hinh };
     giohang.push(sanpham);
     console.log("gio hang", giohang)
 
@@ -57,7 +57,7 @@ function loadNewsDetail(jsonUrl, contentId, URLid) {
                     html += `<span id='soluong' > 1</span > `;
                     html += `<span class='math-button'onclick='congTruSoLuong("cong")'>+</span> `;
                     html += `<div class='container soluongbox' > `;
-                    html += `<div class='buy' onclick='themvaoGioHang("${p.name}","${p.price}")'>Thêm vào giỏ hàng</div>`;
+                    html += `<div class='buy' onclick='themvaoGioHang("${p.name}", "${p.price}", "./img${p.img_url}")'>Thêm vào giỏ hàng</div>`;
                     html += "<div class='muangay-box'>" + "Mua ngay" + "</div>";
                     html += "</div>";
                     html += `<hr class ='hr-green' > `
@@ -90,6 +90,7 @@ function loadNewWithID() {
         "butterCategory": "../data/Bo_an_kieng.json",
         "biscottiCategory": "../data/biscotti.json",
         "cerealCategory": "../data/Hat_ngu_coc.json",
+        "bestseller": "../data/sản phẩm bán chạy.json"
     }
     loadNewsDetail(JsonID[data.type], "sanpham_chitiet", data.id)
 }
