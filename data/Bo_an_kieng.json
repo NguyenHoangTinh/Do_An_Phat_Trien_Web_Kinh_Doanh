@@ -1,44 +1,44 @@
 [
     {
-        "id": "Bo01",
-        "img_url": "/B-01_1.jpg",
+        "id": "B-01",
+        "img_url": "../img/bohatdieu.jpg",
         "img2_url": "/B-01_2.jpg",
         "img3_url": "/B-01_3.jpg",
         "name": "Bơ hạt điều ăn kiêng",
-        "icon1_url": "/đã bán.png",
+        "icon1_url": "../img/da_ban.png",
         "sold": "137",
-        "icon2_url": "/ngôi sao.png",
+        "icon2_url": "../img/ngoi_sao.png",
         "star": "4.8",
-        "price": 210000,
-        "feedback": 10,
-        "describe": "Bơ được làm từ 100% hạt điều nguyên chất, bùi béo từ mùi vị và giàu dinh dưỡng phù hợp với những người theo chế độ eat clean, Keto và có nhu cầu ăn kiêng, kiểm soát cân nặng"
+        "price": "110.000",
+        "describe": "Bơ được làm từ 100% hạt điều nguyên chất, bùi béo từ mùi vị và giàu dinh dưỡng phù hợp với những người theo chế độ eat clean, Keto và có nhu cầu ăn kiêng, kiểm soát cân nặng",
+        "link":"../src/Chi_tiet_sp_bohatdieu.html"
     },
     {
-        "id": "Bo02",
-        "img_url": "/B-02_1.jpg",
+        "id": "B-02",
+        "img_url": "../img/bodauphong.webp",
         "img2_url": "/B-02_2.jpg",
         "img3_url": "/B-02_3.jpg",
         "name": "Bơ đậu phộng ăn kiêng",
-        "icon1_url": "/đã bán.png",
+        "icon1_url": "../img/da_ban.png",
         "sold": "230",
-        "icon2_url": "/ngôi sao.png",
+        "icon2_url": "../img/ngoi_sao.png",
         "star": "4.6",
-        "price": 110000,
-        "feedback": 120,
-        "describe": "Bơ được làm 100% từ đậu phộng nguyên chất và sử dụng đường dừa Organic để tạo ngọt nhưng chỉ một lượng rất nhỏ ạ. Trước khi xay, đậu phộng được rang chín nên sẽ có vị béo, mùi thơm và độ sánh mịn nhất định. Với nhiều lợi ích mang lại, bơ đậu phộng cung cấp một nguồn năng lượng dồi dào, giúp bạn no lâu hơn, tạo cơ bắp tốt và có một hệ thần kinh khoẻ mạnh. Ngoài ra đậu phộng còn là loại hạt chứa lượng lớn các Vitamin và khoáng chất như Vitamin: E, B3, B5, B6. Khoáng chất: Folate, Magie, Đồng, Sắt, Kẽm, Kali,..."
+        "price": "110.000",
+        "describe": "Bơ được làm 100% từ đậu phộng nguyên chất và sử dụng đường dừa Organic để tạo ngọt nhưng chỉ một lượng rất nhỏ ạ. Trước khi xay, đậu phộng được rang chín nên sẽ có vị béo, mùi thơm và độ sánh mịn nhất định. Với nhiều lợi ích mang lại, bơ đậu phộng cung cấp một nguồn năng lượng dồi dào, giúp bạn no lâu hơn, tạo cơ bắp tốt và có một hệ thần kinh khoẻ mạnh. Ngoài ra đậu phộng còn là loại hạt chứa lượng lớn các Vitamin và khoáng chất như Vitamin: E, B3, B5, B6. Khoáng chất: Folate, Magie, Đồng, Sắt, Kẽm, Kali,...",
+        "link":"../src/Chi_tiet_sp_bodauphong.html"
     },
     {
-        "id": "Bo03",
-        "img_url": "/B-03_1.jpeg",
+        "id": "B-03",
+        "img_url": "../img/bohanhnhan.jpeg",
         "img2_url": "/B-03_2.png",
         "img3_url": "/B-03_3.jpg",
         "name": "Bơ hạnh nhân ăn kiêng",
-        "icon1_url": "/đã bán.png",
+        "icon1_url": "../img/da_ban.png",
         "sold": "140",
-        "icon2_url": "/ngôi sao.png",
+        "icon2_url": "../img/ngoi_sao.png",
         "star": "4.7",
-        "price": 210000,
-        "feedback": 80,
-        "describe": "Bơ được làm 100% từ hạnh nhân nguyên chất và tạo ngọt bằng đường dừa Organic nhưng với một lượng rất nhỏ. Trước khi xay, hạnh nhân được nướng chín nên sẽ có vị béo hoà quyện với mùi thơm và có độ sánh mịn nhất định. Bên cạnh việc mang lại nhiều lợi ích và chứa nhiều Vitamin, khoáng chất như bơ đậu phộng thì bơ hạnh nhân lại chứa một lượng chất xơ gần như gấp đôi giúp bạn cảm thấy no nhanh hơn và duy trì cân nặng khoẻ mạnh."
+        "price": "110.000",
+        "describe": "Bơ được làm 100% từ hạnh nhân nguyên chất và tạo ngọt bằng đường dừa Organic nhưng với một lượng rất nhỏ. Trước khi xay, hạnh nhân được nướng chín nên sẽ có vị béo hoà quyện với mùi thơm và có độ sánh mịn nhất định. Bên cạnh việc mang lại nhiều lợi ích và chứa nhiều Vitamin, khoáng chất như bơ đậu phộng thì bơ hạnh nhân lại chứa một lượng chất xơ gần như gấp đôi giúp bạn cảm thấy no nhanh hơn và duy trì cân nặng khoẻ mạnh.",
+        "link":"../src/Chi_tiet_sp_bohanhnhan.html"
     }
 ]
