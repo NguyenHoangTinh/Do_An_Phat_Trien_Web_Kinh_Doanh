@@ -45,3 +45,10 @@ body, html{
     width: 100px;
     height: 100px;
 }
+.homepage_banner{
+    padding: 120px 0px 140px 436px;
+    margin: 20px 0px;
+    background-image: url(../img/homepage_banner_1.png);
+    font-family: 'Inter';
+    color: rgb(255, 255, 255);
+}

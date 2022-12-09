@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
-    <p w3-include-html="../headerfix.html"></p>
-    <script>
+    <!-- <script>
       let user = localStorage.getItem('user')
       console.log(user)
       if(user){
@@ -23,9 +23,13 @@
       }
 
       
+    </script> -->
+    <p w3-include-html="./headerfix.html"></p>
+    <script>
+      w3.includeHTML();
     </script>
-    <div>
-        <img class="anh_top" src="../img/bia_vechungtoi.png" alt="">
+      <!--Banner-->
+    <div class="homepage_banner">
     </div>
     <hr>
     <div class="center" id="doinet">
@@ -94,6 +98,9 @@
             <div><img class="logo_size" src="../img/california_logo.png" alt=""></div>
         </div>
     </div>
-    <p w3-include-html="../footer.html"></p>
+    <p w3-include-html="./footer.html"></p>
+    <script>
+        w3.includeHTML();
+      </script>
 </body>
 </html>

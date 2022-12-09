@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gio hang</title>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 <script defer>
     function congTruSoLuong(type) {
         const content = document.getElementById('soluong');
@@ -164,7 +165,7 @@
     </style>
 </head>
 <body>
-    <p w3-include-html="../headeruser.html"></p>
+    <p w3-include-html="./headeruser.html"></p>
     <script>
       w3.includeHTML();
     </script>
@@ -195,7 +196,7 @@
                     <button class="buttonSL"><span class='math-button'onclick='congTruSoLuong("cong")'>+</span></button>
                 </div>
             </td>
-            <td><input type="text" id="thanhtien1"></td>
+            <td><input type="text" id="thanhtien1" value="110.000VNĐ"></td>
             <td><a href="" class="a">Xóa</a></td>
         </tr>
         <tr>
@@ -216,7 +217,7 @@
                 </div>
 
             </td>
-            <td><input type="text" id="thanhtien1"></td>
+            <td><input type="text" id="thanhtien1"  value="110.000VNĐ"></td>
             <td><a href="" class="a">Xóa</a></td>
         </tr>
         <tr style="margin-top: 200px;">
@@ -226,18 +227,18 @@
             <td></td>
             <td></td>
             <td><h3>Tổng tiền</h3></td>
-            <td><input style="color: red;" type="text" id="total"></td>
+            <td><input style="color: red;" type="text" id="total"  value="220.000VNĐ"></td>
             <td></td>
         </tr>
       </table>
       <div class="btn-block">
-        <a href=""><button class="button1"><h3><img src="" alt="">TIẾP TỤC XEM SẢN PHẨM</h3></button></a>
-        <a href=""><button class="button2"><h3>MUA HÀNG</h3></button></a>
+        <a href="./menu.html"><button class="button1"><h3><img src="" alt="">TIẾP TỤC XEM SẢN PHẨM</h3></button></a>
+        <a href="./thanh_toan.html"><button class="button2"><h3>MUA HÀNG</h3></button></a>
       </div>
 
 
 
 
-    <p w3-include-html="../footer.html"></p>
+    <p w3-include-html="./footer.html"></p>
 </body>
 </html>

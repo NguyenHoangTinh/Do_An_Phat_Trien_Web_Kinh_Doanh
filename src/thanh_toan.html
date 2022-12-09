@@ -4,10 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./thanh_toan.css" />
+    <link rel="stylesheet" href="../css/thanh_toan.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script defer src="./thanh_toan.js"></script>
   </head>
   <body>
+    <p w3-include-html="./headeruser.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
     <div class="page-container">
       <div>
         <h3 class="page-title">THÔNG TIN NHẬN HÀNG</h3>
@@ -70,5 +75,6 @@
         <p>Bạn đã đặt hàng thành công</p>
       </div>
     </div>
+    <p w3-include-html="./footer.html"></p>
   </body>
 </html>

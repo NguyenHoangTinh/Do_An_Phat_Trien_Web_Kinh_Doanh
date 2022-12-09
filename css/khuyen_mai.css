@@ -68,7 +68,7 @@ button:hover{
   line-height: 50px;
   margin-top: 10px;
 }
-.content {
+div.content {
   text-align: center;
   background-color: #e0ddca;
   margin-top: -30px;
@@ -118,7 +118,6 @@ button:hover{
   border-radius: 10px;
   margin: 0px auto;
   margin-bottom: 50px;
-  margin-top: 20px;
 }
 #thoi_gian_con_lai {
   text-align: center;

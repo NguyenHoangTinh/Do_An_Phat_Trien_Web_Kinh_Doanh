@@ -13,14 +13,14 @@ function loadSPKhuyen_Mai() {
           "<a href='./" + p.link + "' target='_blank' class='link_san_pham'>";
         html += `<div class='item' id='item_spk'>`;
         html += `<div class='img'>`;
-        html += "<img class='img-full' src='./" + p.img_url + "'/>";
+        html += "<img class='img-full' src='" + p.img_url + "'/>";
         html += "</div>";
         html += `<div class='content'>`;
         html += "<p class='name'>" + p.name + "</p>";
         html += `<div class='flex-center'>`;
-        html += "<img class='icon1' src='./" + p.icon1_url + "'/>";
+        html += "<img class='icon1' src='" + p.icon1_url + "'/>";
         html += "<span class='description'>" + "đã bán " + p.sold + "</span>";
-        html += "<img class='icon2' src='./" + p.icon2_url + "'/>";
+        html += "<img class='icon2' src='" + p.icon2_url + "'/>";
         html += "<span class='description'>" + p.star + "</span><br />";
         html += "<div class='gia'>";
         html += "<div class='container_price_orgin'>";
