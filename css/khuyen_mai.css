@@ -13,7 +13,7 @@ body {
 }
 a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 a:visited {
   color: black;
@@ -22,7 +22,7 @@ a:visited {
   margin-left: 20px;
   font-size: 24px;
 }
-button:hover{
+button:hover {
   background-color: rgb(136, 175, 154);
 }
 .container_noi_dung_khuyen_mai {
@@ -70,7 +70,6 @@ button:hover{
 }
 div.content {
   text-align: center;
-  background-color: #e0ddca;
   margin-top: -30px;
   width: 293px;
   height: 180px;

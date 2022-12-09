@@ -58,7 +58,7 @@ function loadNewsDetail(jsonUrl, contentId, URLid) {
                     html += `<span class='math-button'onclick='congTruSoLuong("cong")'>+</span> `;
                     html += `<div class='container soluongbox' > `;
                     html += `<div class='buy' onclick='themvaoGioHang("${p.name}", "${p.price}", "./img${p.img_url}")'>Thêm vào giỏ hàng</div>`;
-                    html += "<div class='muangay-box'>" + "Mua ngay" + "</div>";
+                    html += "<a href='thanh_toan.html' class='muangay-box'>" + "Mua ngay" + "</a>";
                     html += "</div>";
                     html += `<hr class ='hr-green' > `
                     html += "</div>";

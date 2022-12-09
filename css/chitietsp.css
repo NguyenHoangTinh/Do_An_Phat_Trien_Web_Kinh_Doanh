@@ -219,9 +219,8 @@ h2 {
   background-color: #f6f8e2;
   line-height: 50px;
 }
-.content {
+div.content {
   text-align: center;
-  background-color: #e0ddca;
   margin-top: -30px;
   width: 293px;
   height: 180px;
