@@ -6,8 +6,7 @@
     "sold": "180",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.8",
-    "price": "110.000",
-    "link": "../src/Chi_tiet_sp_biscottivani.html"
+    "price": "110.000"
   },
   {
     "img_url": "../img/biscottimatcha.jpg",
@@ -16,8 +15,7 @@
     "sold": "210",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.7",
-    "price": "110.000",
-    "link": "../src/Chi_tiet_sp_biscottimatcha.html"    
+    "price": "110.000"    
   },
   {
     "img_url": "../img/biscottichoco.jpg",
@@ -26,8 +24,7 @@
     "sold": "140",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.6",
-    "price": "110.000",
-    "link":"../src/Chi_tiet_sp_biscottichoco.html"
+    "price": "110.000"
   },
   {
     "img_url": "../img/biscottimix.jpg",
@@ -36,7 +33,6 @@
     "sold": "190",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.9",
-    "price": "110.000",
-    "link":"../src/Chi_tiet_sp_biscottimix.html"
+    "price": "110.000"
   }
 ]

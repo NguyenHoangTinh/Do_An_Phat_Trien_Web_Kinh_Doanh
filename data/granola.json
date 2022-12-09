@@ -6,8 +6,7 @@
     "sold": "159",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.5",
-    "price": "130.000",
-    "link": "../src/Chi_tiet_sp_granolavani.html"
+    "price": "130.000"
   },
   {
     "img_url": "../img/granolamatcha.jpg",
@@ -16,8 +15,7 @@
     "sold": "210",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.8",
-    "price": "130.000",
-    "link": "../src/Chi_tiet_sp_granolamatcha.html"
+    "price": "130.000"
   },
   {
     "img_url": "../img/granolachoco.jpg",
@@ -26,8 +24,7 @@
     "sold": "140",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.7",
-    "price": "130.000",
-    "link": "../src/Chi_tiet_sp_granolachoco.html"
+    "price": "130.000"
   },
   {
     "img_url": "../img/granolacookies.jpg",
@@ -36,7 +33,6 @@
     "sold": "137",
     "icon2_url": "../img/ngoi_sao.png",
     "star": "4.5",
-    "price": "130.000",
-    "link": "../src/Chi_tiet_sp_granolacookies.html"
+    "price": "130.000"
   }
 ]
