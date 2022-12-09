@@ -1,50 +1,42 @@
 [
   {
-    "id": "Gr01",
-    "img_url": "/granola vani.jpg",
+    "img_url": "../img/granolavani.jpg",
     "name": "Granola Vani",
-    "icon1_url": "/đã bán.png",
+    "icon1_url": "../img/da_ban.png",
     "sold": "159",
-    "icon2_url": "/ngôi sao.png",
+    "icon2_url": "../img/ngoi_sao.png",
     "star": "4.5",
-    "price": 130000,
-    "feedback": 70,
-    "describe": "Granola - ngũ cốc các loại hạt và trái cây khô hàng ngày để ăn kiêng và kiểm soát cân nặng tự nhiên hiệu quả."
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolavani.html"
   },
   {
-    "id": "Gr02",
-    "img_url": "/granola matcha.jpg",
+    "img_url": "../img/granolamatcha.jpg",
     "name": "Granola Matcha",
-    "icon1_url": "/đã bán.png",
+    "icon1_url": "../img/da_ban.png",
     "sold": "210",
-    "icon2_url": "/ngôi sao.png",
+    "icon2_url": "../img/ngoi_sao.png",
     "star": "4.8",
-    "price": 130000,
-    "feedback": 10,
-    "describe": "Ngũ cốc ăn kiêng Granola vị matcha vừa kiểm soát cân nặng, lại vừa hỗ trợ tốt trong việc detox, thư giãn tinh thần.Đặc biệt hơn, bánh có hàm lượng dinh dưỡng cao khi được kết hợp với nhiều loại hạt khác nhau như: hạt Hạnh nhân, hạt Điều, hạt Bí, Nho khô và Mơ sấy dẻo không đường."
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolamatcha.html"
   },
   {
-    "id": "Gr03",
-    "img_url": "/granola choco.jpg",
+    "img_url": "../img/granolachoco.jpg",
     "name": "Granola Choco",
-    "icon1_url": "/đã bán.png",
+    "icon1_url": "../img/da_ban.png",
     "sold": "140",
-    "icon2_url": "/ngôi sao.png",
+    "icon2_url": "../img/ngoi_sao.png",
     "star": "4.7",
-    "price": 130000,
-    "feedback": 810,
-    "describe": "Ngũ Cốc Ăn Kiêng Granola Vị Choco có thể ăn kiêng mà vẫn cảm thấy ngon miệng và tràn đầy năng lượng."
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolachoco.html"
   },
   {
-    "id": "Gr04",
-    "img_url": "/granola cookies.jpg",
+    "img_url": "../img/granolacookies.jpg",
     "name": "Granola Cookies",
-    "icon1_url": "/đã bán.png",
+    "icon1_url": "../img/da_ban.png",
     "sold": "137",
-    "icon2_url": "/ngôi sao.png",
+    "icon2_url": "../img/ngoi_sao.png",
     "star": "4.5",
-    "price": 130000,
-    "feedback": 20,
-    "describe": "Với sự kết hợp của nhiều loại hạt dinh dưỡng khác nhau như: hạt hạnh nhân, hạt bí, hạt điều, hạt hướng dương, mè đen, yến mạch và có vị ngọt tự nhiên từ nho khô cùng với một chút socola chip nên bánh siêu chuẩn HEALTHY và cực kì tốt cho sức khoẻ của mọi người. "
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolacookies.html"
   }
 ]

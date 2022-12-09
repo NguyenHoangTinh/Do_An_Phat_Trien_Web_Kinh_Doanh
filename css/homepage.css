@@ -1,18 +1,21 @@
-
 body{
-    margin: 0;
     width: 1728px;
+    font-family: "Inter";
+    font-weight: normal;
+    font-style: normal;
 }
-@font-face{
+/* @font-face{
     src:url(./Inter-VariableFont_slnt\,wght.ttf);
     font-family: inter;
-}
+} */
 #homepage{
     position: relative;
-   
+}
+.homepage_main{
+    margin-top: 90px;
 }
 /*Header*/
-.header {
+/* .header {
     display: flex;
     background: #9CCD62;
     font-family: inter;
@@ -22,7 +25,7 @@ body{
     text-decoration: none;
     font-size: 28px;
     margin: 35px 0px 0px 35px ;
-  }
+  } */
 .header_logo {
     margin: 11px 0px 11px 27px;
   }
@@ -51,7 +54,7 @@ body{
     width: 1292px;
     padding: 120px 0px 140px 436px;
     margin: 20px 0px;
-    background-image: url(./homepage_banner_1.png);
+    background-image: url(../img/homepage_banner_1.png);
     font-family: 'Inter';
     color: rgb(255, 255, 255);
 }
@@ -163,6 +166,8 @@ body{
 }
 .p2_img{
     margin-right: 5px;
+    width: 15px;
+    height: 15px;
 }
 .p2_text{
     margin-right: 15px;

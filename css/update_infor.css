@@ -7,12 +7,8 @@ body{
     src:url(./Inter-VariableFont_slnt\,wght.ttf);
     font-family: inter;
 }
-#homepage{
-    position: relative;
-   
-}
 /*Header*/
-.header {
+/* .header {
     display: flex;
     background: #9CCD62;
     font-family: inter;
@@ -45,15 +41,14 @@ body{
     left: 230px;
     color:#646464;
     color:
-  }
+  } */
 /* Update Information*/
 .update_infor_main{
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin-top: 120px;
 }
-
 .update_img{
     border: 1px solid rgb(175, 209, 157);
     border-radius: 5px;
