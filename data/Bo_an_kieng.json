@@ -10,8 +10,7 @@
         "icon2_url": "../img/ngoi_sao.png",
         "star": "4.8",
         "price": "110.000",
-        "describe": "Bơ được làm từ 100% hạt điều nguyên chất, bùi béo từ mùi vị và giàu dinh dưỡng phù hợp với những người theo chế độ eat clean, Keto và có nhu cầu ăn kiêng, kiểm soát cân nặng",
-        "link":"../src/Chi_tiet_sp_bohatdieu.html"
+        "describe": "Bơ được làm từ 100% hạt điều nguyên chất, bùi béo từ mùi vị và giàu dinh dưỡng phù hợp với những người theo chế độ eat clean, Keto và có nhu cầu ăn kiêng, kiểm soát cân nặng"
     },
     {
         "id": "B-02",
@@ -24,8 +23,7 @@
         "icon2_url": "../img/ngoi_sao.png",
         "star": "4.6",
         "price": "110.000",
-        "describe": "Bơ được làm 100% từ đậu phộng nguyên chất và sử dụng đường dừa Organic để tạo ngọt nhưng chỉ một lượng rất nhỏ ạ. Trước khi xay, đậu phộng được rang chín nên sẽ có vị béo, mùi thơm và độ sánh mịn nhất định. Với nhiều lợi ích mang lại, bơ đậu phộng cung cấp một nguồn năng lượng dồi dào, giúp bạn no lâu hơn, tạo cơ bắp tốt và có một hệ thần kinh khoẻ mạnh. Ngoài ra đậu phộng còn là loại hạt chứa lượng lớn các Vitamin và khoáng chất như Vitamin: E, B3, B5, B6. Khoáng chất: Folate, Magie, Đồng, Sắt, Kẽm, Kali,...",
-        "link":"../src/Chi_tiet_sp_bodauphong.html"
+        "describe": "Bơ được làm 100% từ đậu phộng nguyên chất và sử dụng đường dừa Organic để tạo ngọt nhưng chỉ một lượng rất nhỏ ạ. Trước khi xay, đậu phộng được rang chín nên sẽ có vị béo, mùi thơm và độ sánh mịn nhất định. Với nhiều lợi ích mang lại, bơ đậu phộng cung cấp một nguồn năng lượng dồi dào, giúp bạn no lâu hơn, tạo cơ bắp tốt và có một hệ thần kinh khoẻ mạnh. Ngoài ra đậu phộng còn là loại hạt chứa lượng lớn các Vitamin và khoáng chất như Vitamin: E, B3, B5, B6. Khoáng chất: Folate, Magie, Đồng, Sắt, Kẽm, Kali,..."
     },
     {
         "id": "B-03",
@@ -38,7 +36,6 @@
         "icon2_url": "../img/ngoi_sao.png",
         "star": "4.7",
         "price": "110.000",
-        "describe": "Bơ được làm 100% từ hạnh nhân nguyên chất và tạo ngọt bằng đường dừa Organic nhưng với một lượng rất nhỏ. Trước khi xay, hạnh nhân được nướng chín nên sẽ có vị béo hoà quyện với mùi thơm và có độ sánh mịn nhất định. Bên cạnh việc mang lại nhiều lợi ích và chứa nhiều Vitamin, khoáng chất như bơ đậu phộng thì bơ hạnh nhân lại chứa một lượng chất xơ gần như gấp đôi giúp bạn cảm thấy no nhanh hơn và duy trì cân nặng khoẻ mạnh.",
-        "link":"../src/Chi_tiet_sp_bohanhnhan.html"
+        "describe": "Bơ được làm 100% từ hạnh nhân nguyên chất và tạo ngọt bằng đường dừa Organic nhưng với một lượng rất nhỏ. Trước khi xay, hạnh nhân được nướng chín nên sẽ có vị béo hoà quyện với mùi thơm và có độ sánh mịn nhất định. Bên cạnh việc mang lại nhiều lợi ích và chứa nhiều Vitamin, khoáng chất như bơ đậu phộng thì bơ hạnh nhân lại chứa một lượng chất xơ gần như gấp đôi giúp bạn cảm thấy no nhanh hơn và duy trì cân nặng khoẻ mạnh."
     }
 ]
