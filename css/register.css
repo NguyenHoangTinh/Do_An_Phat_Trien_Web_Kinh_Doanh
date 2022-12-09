@@ -1,56 +1,36 @@
-
 body{
-    margin: 0;
-    width: 1728px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face{
     src:url(./Inter-VariableFont_slnt\,wght.ttf);
     font-family: inter;
 }
-#homepage{
-    position: relative;
-   
-}
-/*Header*/
-.header {
-    display: flex;
-    background: #9CCD62;
-    font-family: inter;
-    position: relative;
-  }
-.header a{
-    text-decoration: none;
-    font-size: 28px;
-    margin: 35px 0px 0px 35px ;
-  }
-.header_logo {
-    margin: 11px 0px 11px 27px;
-  }
-.header_search{
-    margin: 25px 0px 0px 35px ;
-    position: relative;
-  }
-.header_search_input{
-    width: 269px;
-    height: 45px;
-    border: 1px solid #646464;
-    border-radius: 20px;
-    background-color:rgba(255, 255, 255, 0);
-    font-size: 24px;
-    padding-left: 15px;
-  }  
-.header_search i{
+.img-bg{
     position: absolute;
-    top: 22px;
-    left: 230px;
-    color:#646464;
+    top: 0;
+    width:100%;
+    left: 0;
+    height: 100%;
 }
-
+.img-bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* Update Information*/
 .register_main{
-    background-image: url(./hinh/register-banner.png);
     font-family: inter;
-    padding: 40px 40px 40px 470px;
+    padding: 90px 1100px;
+    position: relative;
 
 }
 .register_box{
@@ -165,12 +145,15 @@ a, a:hover, a:focus, a:active {
     font-size: 18px;
     margin: 15px 0px 0px;
 }
-.button_register{
-    width: 294px;
-    height: 75px;
-    background-color: #F6F8E2;
+.register_main .form-group button{
+    background: #cfd1bf;
+    color: #000000;
+    outline: none;
+    border-radius: 20px;
     border: none;
-    border-radius: 38px;
-    font-size: 28px;
-    font-weight: 700;
+    height: 80px;
+    font-size:36px;
+    width: 450px;
+    cursor: pointer;
+    justify-content: center;
 }
